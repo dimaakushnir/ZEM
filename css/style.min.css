@@ -174,6 +174,12 @@ body.lock {
   overflow: hidden;
 }
 
+.content {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1310px;
   margin: 0 auto;
@@ -1359,26 +1365,12 @@ body.lock {
 .main {
   position: relative;
   background-color: #DECEE9;
-  padding: 300px 0 255px 0;
-}
-@media (max-width: 1322px) {
-  .main {
-    padding: 250px 0 200px 0;
-  }
-}
-@media (max-width: 991.98px) {
-  .main {
-    padding: 200px 0 130px 0;
-  }
-}
-@media (max-width: 767.98px) {
-  .main {
-    padding: 175px 0 90px 0;
-  }
+  padding: 150px 0 100px 0;
+  height: 100vh;
 }
 @media (max-width: 479.98px) {
   .main {
-    padding: 320px 0 30px 0;
+    padding: 0;
   }
 }
 .main__block-1 {
@@ -1389,6 +1381,14 @@ body.lock {
 }
 @media (max-width: 479.98px) {
   .main__block-1 {
+    padding: 320px 0 0 0;
+  }
+}
+.main__block-2 {
+  height: 100%;
+}
+@media (max-width: 479.98px) {
+  .main__block-2 {
     padding: 320px 0 0 0;
   }
 }
@@ -1417,6 +1417,9 @@ body.lock {
     opacity: 0.3;
   }
 }
+.main__container {
+  height: 100%;
+}
 .main__row {
   display: -webkit-box;
   display: -moz-box;
@@ -1426,6 +1429,12 @@ body.lock {
   font-size: 0;
   justify-content: center;
   align-items: center;
+  height: 100%;
+}
+@media (max-width: 479.98px) {
+  .main__row {
+    align-items: flex-start;
+  }
 }
 .main__content {
   position: relative;
