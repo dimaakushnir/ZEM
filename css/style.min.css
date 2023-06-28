@@ -1706,6 +1706,7 @@ body.lock {
 .possible-block {
   position: relative;
   background: #DECEE9;
+  overflow: hidden;
 }
 .possible-block__image {
   position: absolute;
@@ -1858,6 +1859,7 @@ body.lock {
 
 .order-service {
   position: relative;
+  overflow: hidden;
 }
 .order-service__image {
   position: absolute;
@@ -2703,6 +2705,7 @@ body.lock {
 
 .how-get {
   position: relative;
+  overflow: hidden;
 }
 .how-get__image {
   position: absolute;
@@ -2979,6 +2982,7 @@ body.lock {
 
 .why-choose {
   position: relative;
+  overflow: hidden;
 }
 .why-choose__image {
   position: absolute;
@@ -3268,6 +3272,7 @@ body.lock {
 
 .other-services {
   position: relative;
+  overflow: hidden;
 }
 .other-services__image {
   position: absolute;
