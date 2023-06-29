@@ -961,7 +961,7 @@ body.lock {
 }
 @media (max-width: 479.98px) {
   .language__link {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -1492,12 +1492,12 @@ body.lock {
 }
 @media (max-width: 767.98px) {
   .link-item-footer__link {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 @media (max-width: 479.98px) {
   .link-item-footer__link {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -1678,7 +1678,7 @@ body.lock {
 @media (max-width: 479.98px) {
   .main__subtitle {
     padding: 0 2px;
-    font-size: 14px;
+    font-size: 15px;
   }
   .main__subtitle:not(:last-child) {
     margin: 0 0 18px 0;
@@ -1844,7 +1844,7 @@ body.lock {
 }
 @media (max-width: 479.98px) {
   .about__text {
-    font-size: 14px;
+    font-size: 15px;
     padding: 18px 13px 21px 13px;
   }
   .about__text p:not(:last-child) {
@@ -1939,7 +1939,7 @@ body.lock {
 }
 @media (max-width: 479.98px) {
   .possible-block__text {
-    font-size: 14px;
+    font-size: 15px;
     padding: 13px 10px 13px 17px;
   }
 }
@@ -2000,7 +2000,7 @@ body.lock {
 }
 @media (max-width: 479.98px) {
   .other-text-possible-block__content {
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 10px 13px 17px;
   }
 }
@@ -2448,11 +2448,6 @@ body.lock {
     font-size: 15px;
   }
 }
-@media (max-width: 479.98px) {
-  .categories__text {
-    font-size: 14px;
-  }
-}
 .categories__inner-btn {
   display: -webkit-box;
   display: -moz-box;
@@ -2734,11 +2729,6 @@ body.lock {
     font-size: 15px;
   }
 }
-@media (max-width: 479.98px) {
-  .permit-documents__sublabel {
-    font-size: 14px;
-  }
-}
 .permit-documents__document {
   display: -webkit-box;
   display: -moz-box;
@@ -2958,11 +2948,6 @@ body.lock {
 @media (max-width: 767.98px) {
   .how-get__text {
     font-size: 15px;
-  }
-}
-@media (max-width: 479.98px) {
-  .how-get__text {
-    font-size: 14px;
   }
 }
 .how-get__form {
@@ -3410,9 +3395,6 @@ body.lock {
   }
 }
 @media (max-width: 479.98px) {
-  .simple-system__text {
-    font-size: 14px;
-  }
   .simple-system__text p:not(:last-child) {
     margin: 0 0 8px 0;
   }
