@@ -184,6 +184,11 @@ body.lock {
   max-width: 1310px;
   margin: 0 auto;
   width: 100%;
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -o-transform: scale(0.85);
+  transform: scale(0.85);
 }
 @media (max-width: 1322px) {
   .container {
@@ -199,6 +204,11 @@ body.lock {
   .container {
     max-width: none;
     padding: 0 12px;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -383,6 +393,9 @@ body.lock {
     font-size: 16px;
     margin: 0 0 10px 0;
   }
+}
+.form__input_hidden {
+  display: none;
 }
 .image-bg {
   position: absolute;
@@ -2006,13 +2019,7 @@ body.lock {
 .order-service {
   position: relative;
   overflow: hidden;
-}
-.order-service__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  background-color: #F5F0F6;
 }
 .order-service__row {
   position: relative;
@@ -2047,6 +2054,7 @@ body.lock {
   font-size: 0;
   border: 10px solid #fff;
   border-radius: 20px;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1322px) {
   .order-service__content {
@@ -2632,6 +2640,29 @@ body.lock {
   font-size: 0;
   text-align: right;
 }
+.permit-documents__bottom_ru .permit-documents__document_2 {
+  margin: -270px 40px 0 0;
+}
+@media (max-width: 1322px) {
+  .permit-documents__bottom_ru .permit-documents__document_2 {
+    margin: -120px 40px 0 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .permit-documents__bottom_ru .permit-documents__document_2 {
+    margin: 0 0 40px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .permit-documents__bottom_ru .permit-documents__document_2 {
+    margin: 0 0 35px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .permit-documents__bottom_ru .permit-documents__document_2 {
+    margin: 0 0 30px 0;
+  }
+}
 @media (max-width: 991.98px) {
   .permit-documents__bottom {
     flex-direction: column;
@@ -2951,7 +2982,7 @@ body.lock {
   }
 }
 .how-get__form {
-  margin: 0 0 0 175px;
+  margin: 0 0 0 170px;
   position: relative;
 }
 .how-get__form::before {
@@ -3082,7 +3113,7 @@ body.lock {
   right: 0;
   bottom: 0;
   padding: 20px 8px 2.5px 40px;
-  min-width: 165px;
+  min-width: 180px;
   background: #DECEE9;
   color: #000;
   text-align: right;
